@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "Testing out NodeJS services.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: No tests\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartthompson/nodejs-server.git"
+  },
+  "author": "Stuart Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stuartthompson/nodejs-server/issues"
+  },
+  "homepage": "https://github.com/stuartthompson/nodejs-server#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5"
+  }
+}
